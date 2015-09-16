@@ -1,6 +1,4 @@
 <?php
-var_dump(getenv('RDS_HOSTNAME'), getenv('RDS_USERNAME'), getenv('RDS_PASSWORD'), getenv('RDS_DB_NAME'));
-var_dump($_SERVER);exit;
 /** 
  * As configurações básicas do WordPress.
  *
