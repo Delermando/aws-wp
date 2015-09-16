@@ -20,6 +20,8 @@ define('DB_HOST', getenv('RDS_HOSTNAME'));
 define('DB_USER', getenv('RDS_USERNAME'));
 define('DB_PASSWORD', getenv('RDS_PASSWORD'));
 define('DB_NAME', getenv('RDS_DB_NAME'));
+var_dump(getenv('RDS_HOSTNAME'), getenv('RDS_USERNAME'), getenv('RDS_PASSWORD'), getenv('RDS_DB_NAME'));
+
 
 
 /** Conjunto de caracteres do banco de dados a ser usado na criação das tabelas. */
